@@ -1,0 +1,13 @@
+{
+  "name": "@myapp/gen-server",
+  "version": "1.0.1792849476697",
+	"dependencies": {
+		"@myapp/gen-shared": "file:../shared"
+	},
+  "main": "./dist/cjs/index.js",
+	"type": "commonjs",
+  "typings": "./dist/cjs/index.d.ts",
+	"scripts": { 
+		"build": "tsc"
+	}
+}
